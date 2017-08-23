@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35AAD60F9377BC736D0C71B4 /* Pods_HITDairyAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FAF38EC373AD69E3313499 /* Pods_HITDairyAnalytics.framework */; };
 		DE4117B61F4D16A400F0D875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4117B51F4D16A400F0D875 /* AppDelegate.swift */; };
 		DE4117B81F4D16A400F0D875 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4117B71F4D16A400F0D875 /* ViewController.swift */; };
 		DE4117BB1F4D16A500F0D875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4117B91F4D16A500F0D875 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		DE4117C01F4D16A500F0D875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4117BE1F4D16A500F0D875 /* LaunchScreen.storyboard */; };
 		DE4117CB1F4D16A500F0D875 /* HITDairyAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4117CA1F4D16A500F0D875 /* HITDairyAnalyticsTests.swift */; };
 		DE4117D61F4D16A500F0D875 /* HITDairyAnalyticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4117D51F4D16A500F0D875 /* HITDairyAnalyticsUITests.swift */; };
+		DE4117E51F4D19A800F0D875 /* SensorDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4117E41F4D19A800F0D875 /* SensorDefines.swift */; };
+		DE4117E71F4D1AD600F0D875 /* SensorDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4117E61F4D1AD600F0D875 /* SensorDataModel.swift */; };
+		DE4117E91F4D1F3F00F0D875 /* SensorWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4117E81F4D1F3F00F0D875 /* SensorWebServices.swift */; };
+		DE4117EB1F4D232B00F0D875 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE4117EA1F4D232B00F0D875 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		625EC044DEAF2550903EC37D /* Pods-HITDairyAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HITDairyAnalytics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HITDairyAnalytics/Pods-HITDairyAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+		7986BE171218ABFE9804F9A7 /* Pods-HITDairyAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HITDairyAnalytics.release.xcconfig"; path = "Pods/Target Support Files/Pods-HITDairyAnalytics/Pods-HITDairyAnalytics.release.xcconfig"; sourceTree = "<group>"; };
+		B0FAF38EC373AD69E3313499 /* Pods_HITDairyAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HITDairyAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4117B21F4D16A400F0D875 /* HITDairyAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HITDairyAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4117B51F4D16A400F0D875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4117B71F4D16A400F0D875 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		DE4117D11F4D16A500F0D875 /* HITDairyAnalyticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HITDairyAnalyticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4117D51F4D16A500F0D875 /* HITDairyAnalyticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HITDairyAnalyticsUITests.swift; sourceTree = "<group>"; };
 		DE4117D71F4D16A500F0D875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4117E41F4D19A800F0D875 /* SensorDefines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorDefines.swift; sourceTree = "<group>"; };
+		DE4117E61F4D1AD600F0D875 /* SensorDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorDataModel.swift; sourceTree = "<group>"; };
+		DE4117E81F4D1F3F00F0D875 /* SensorWebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorWebServices.swift; sourceTree = "<group>"; };
+		DE4117EA1F4D232B00F0D875 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/HITDairyAnalytics-gnfpbtrnunkenkdbfdsderkqnhqj/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4117EB1F4D232B00F0D875 /* Alamofire.framework in Frameworks */,
+				35AAD60F9377BC736D0C71B4 /* Pods_HITDairyAnalytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B40EE31267F7457F70F009F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE4117EA1F4D232B00F0D875 /* Alamofire.framework */,
+				B0FAF38EC373AD69E3313499 /* Pods_HITDairyAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1A9A41C92A0FEE70C56589 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				625EC044DEAF2550903EC37D /* Pods-HITDairyAnalytics.debug.xcconfig */,
+				7986BE171218ABFE9804F9A7 /* Pods-HITDairyAnalytics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DE4117A91F4D16A400F0D875 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				DE4117C91F4D16A500F0D875 /* HITDairyAnalyticsTests */,
 				DE4117D41F4D16A500F0D875 /* HITDairyAnalyticsUITests */,
 				DE4117B31F4D16A400F0D875 /* Products */,
+				CD1A9A41C92A0FEE70C56589 /* Pods */,
+				3B40EE31267F7457F70F009F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +133,9 @@
 			children = (
 				DE4117B51F4D16A400F0D875 /* AppDelegate.swift */,
 				DE4117B71F4D16A400F0D875 /* ViewController.swift */,
+				DE4117E81F4D1F3F00F0D875 /* SensorWebServices.swift */,
+				DE4117E41F4D19A800F0D875 /* SensorDefines.swift */,
+				DE4117E61F4D1AD600F0D875 /* SensorDataModel.swift */,
 				DE4117B91F4D16A500F0D875 /* Main.storyboard */,
 				DE4117BC1F4D16A500F0D875 /* Assets.xcassets */,
 				DE4117BE1F4D16A500F0D875 /* LaunchScreen.storyboard */,
@@ -132,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE4117DA1F4D16A500F0D875 /* Build configuration list for PBXNativeTarget "HITDairyAnalytics" */;
 			buildPhases = (
+				5DA5D4C488669E4318D0D275 /* [CP] Check Pods Manifest.lock */,
 				DE4117AE1F4D16A400F0D875 /* Sources */,
 				DE4117AF1F4D16A400F0D875 /* Frameworks */,
 				DE4117B01F4D16A400F0D875 /* Resources */,
+				A137C0DC7CC037B5BB28680B /* [CP] Embed Pods Frameworks */,
+				CFF29EC2DDA58772955852C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +294,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DA5D4C488669E4318D0D275 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HITDairyAnalytics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A137C0DC7CC037B5BB28680B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HITDairyAnalytics/Pods-HITDairyAnalytics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HITDairyAnalytics/Pods-HITDairyAnalytics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFF29EC2DDA58772955852C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HITDairyAnalytics/Pods-HITDairyAnalytics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE4117AE1F4D16A400F0D875 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DE4117B81F4D16A400F0D875 /* ViewController.swift in Sources */,
+				DE4117E71F4D1AD600F0D875 /* SensorDataModel.swift in Sources */,
+				DE4117E51F4D19A800F0D875 /* SensorDefines.swift in Sources */,
+				DE4117E91F4D1F3F00F0D875 /* SensorWebServices.swift in Sources */,
 				DE4117B61F4D16A400F0D875 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +507,7 @@
 		};
 		DE4117DB1F4D16A500F0D875 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625EC044DEAF2550903EC37D /* Pods-HITDairyAnalytics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HITDairyAnalytics/Info.plist;
@@ -422,6 +520,7 @@
 		};
 		DE4117DC1F4D16A500F0D875 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7986BE171218ABFE9804F9A7 /* Pods-HITDairyAnalytics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HITDairyAnalytics/Info.plist;
@@ -505,6 +604,7 @@
 				DE4117DC1F4D16A500F0D875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE4117DD1F4D16A500F0D875 /* Build configuration list for PBXNativeTarget "HITDairyAnalyticsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +613,7 @@
 				DE4117DF1F4D16A500F0D875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE4117E01F4D16A500F0D875 /* Build configuration list for PBXNativeTarget "HITDairyAnalyticsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +622,7 @@
 				DE4117E21F4D16A500F0D875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
