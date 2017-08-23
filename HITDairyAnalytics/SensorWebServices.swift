@@ -42,7 +42,7 @@ class SensorWebServices {
                                       "TotalData" : "ss,nm"]
         Alamofire.request(todosEndpoint, method: .post, parameters: newTodo,
                           encoding: JSONEncoding.default)
-            .responseJSON { response in
+            .responseString { response in
                 guard response.result.error == nil else {
                     // got an error in getting the data, need to handle it
                     print("error calling POST on /todos/1")
@@ -52,7 +52,7 @@ class SensorWebServices {
                 // make sure we got some JSON since that's what we expect
                 guard let json = response.result.value as? [String: Any] else {
                     print("didn't get todo object as JSON from API")
-                    print("Error: \(response.result.error)")
+                    print("Error: \(response.result.description)")
                     return
                 }
                 // get and print the title
