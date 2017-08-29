@@ -19,7 +19,7 @@ class SensorWebServices {
     func postSensorData() {
         
                     
-                   /* Alamofire.request(AWS_URL, method: .post, parameters: [
+                    Alamofire.request(AWS_URL, method: .post, parameters: [
                         "Sensor_ID": "12",
                         "TotalData" : "ss,nm"
                         ]
@@ -35,9 +35,9 @@ class SensorWebServices {
                                 print(error)
                             }
                             
-                   }*/
+                   }
         
-        let todosEndpoint: String = AWS_URL
+       /* let todosEndpoint: String = AWS_URL
         let newTodo: [String: Any] = ["Sensor_ID": "12",
                                       "TotalData" : "ss,nm"]
         Alamofire.request(todosEndpoint, method: .post, parameters: newTodo,
@@ -61,7 +61,7 @@ class SensorWebServices {
                     return
                 }
                 print("The title is: " + todoTitle)
-        }
+        }*/
         
         
     }
